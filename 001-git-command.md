@@ -20,5 +20,4 @@
   10. git push -f origin master: 强推送
   
   # git issue
-  1. fatal: Authentication failed 
-     Windows Credentials Manager -> Edit -> Update pwd
+  1. fatal: Authentication failed ---- Windows Credentials Manager -> Edit -> Update pwd
