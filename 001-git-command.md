@@ -19,3 +19,6 @@
   9. git diff HEAD：查看与上一次commit的区别
   10. git push -f origin master: 强推送
   
+  # git issue
+  1. fatal: Authentication failed 
+     Windows Credentials Manager -> Edit -> Update pwd
