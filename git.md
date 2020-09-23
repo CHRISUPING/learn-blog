@@ -21,3 +21,6 @@
   
   # git issue
   1. fatal: Authentication failed ---- Windows Credentials Manager -> Edit -> Update pwd
+  
+  # git log
+  1. git log --pretty=format:"%s"  %s=> commit 信息标题 [reference doc](https://ruby-china.org/topics/939)
