@@ -22,6 +22,13 @@
   # git issue
   1. fatal: Authentication failed ---- Windows Credentials Manager -> Edit -> Update pwd
   
+  # git alias
+  1. ./gitconfig 
+  ```sh
+  [alias]	
+	lg = log --pretty=tformat:\"%h %ad | %s%d [%an]\" --graph --date=short
+  ```
+  
   # git log
   1. git log --pretty=format:"%s" 信息标题 [reference doc](https://ruby-china.org/topics/939) 
   ```sh
