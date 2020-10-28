@@ -4,7 +4,7 @@
   - https://www.bookstack.cn/read/git-tutorial/docs-basic.md
 # git flow 
   - config
-  ```
+  ```sh
   $ git config --global user.name "Some One"
   $ git config --global user.email "someone@gmail.com"
   ```
@@ -23,4 +23,7 @@
   1. fatal: Authentication failed ---- Windows Credentials Manager -> Edit -> Update pwd
   
   # git log
-  1. git log --pretty=format:"%s"  %s=> commit 信息标题 [reference doc](https://ruby-china.org/topics/939)
+  1. git log --pretty=format:"%s" 信息标题 [reference doc](https://ruby-china.org/topics/939) 
+  ```sh
+  $ git log --pretty=tformat:"%h %ad | %s%d [%an]" --graph --date=short
+  ```
