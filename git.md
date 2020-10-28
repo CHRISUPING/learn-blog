@@ -5,8 +5,8 @@
 # git flow 
   - config
   ```sh
-  $ git config --global user.name "Some One"
-  $ git config --global user.email "someone@gmail.com"
+  git config --global user.name "Some One"
+  git config --global user.email "someone@gmail.com"
   ```
   1. git init：新建一个git库
   2. git status：查看目前状态
@@ -25,5 +25,5 @@
   # git log
   1. git log --pretty=format:"%s" 信息标题 [reference doc](https://ruby-china.org/topics/939) 
   ```sh
-  $ git log --pretty=tformat:"%h %ad | %s%d [%an]" --graph --date=short
+  git log --pretty=tformat:"%h %ad | %s%d [%an]" --graph --date=short
   ```
