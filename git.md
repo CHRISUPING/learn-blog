@@ -18,6 +18,7 @@
   8. git pull origin master：将远程主机origin的代码取回本地，与本地的master分支合并
   9. git diff HEAD：查看与上一次commit的区别
   10. git push -f origin master: 强推送
+  11. git checkout -b branch origin/branch 拉取远程分支并创建相同的分支名称到本地
   
   # git issue
   1. fatal: Authentication failed ---- Windows Credentials Manager -> Edit -> Update pwd
